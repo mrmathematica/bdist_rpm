@@ -1,0 +1,10 @@
+{
+  "package_name": "package",
+  "project_slug": "{{ 'python-'+cookiecutter.package_name.lower().replace(' ', '_') }}",
+  "base_image": "quay.io/centos/centos:stream8",
+  "python_rpm_install": "python3.11",
+  "python_rpm_extra": "python3.11-pip",
+  "package_version": "1.0.0",
+  "python_version" : "python3.11",
+  "license": "GPL"
+}
